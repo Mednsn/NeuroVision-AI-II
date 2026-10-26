@@ -1,0 +1,35 @@
+
+# Python
+__pycache__/
+*.py[cod]
+.venv/
+.env
+
+# Dataset - never upload
+data/raw/*
+!data/raw/.gitkeep
+data/processed/*
+!data/processed/.gitkeep
+
+# Trained models
+models/*
+!models/.gitkeep
+*.keras
+*.h5
+*.weights.h5
+
+# MLflow
+mlruns/
+mlartifacts/
+mlflow.db
+
+# Notebooks
+.ipynb_checkpoints/
+
+# Reports generated during training
+reports/figures/*
+reports/results/*
+
+# OS
+.DS_Store
+Thumbs.db

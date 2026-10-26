@@ -1,5 +1,5 @@
 [project]
-name = "vast-jupyter"
+name = "neurovisionai-ii-5th-bref"
 version = "0.1.0"
 description = "Add your description here"
 readme = "README.md"
@@ -7,10 +7,22 @@ authors = [
     { name = "mohamed", email = "medolgholb@gmail.com" }
 ]
 requires-python = ">=3.12"
-dependencies = []
+dependencies = [
+    "gdown>=6.5.1",
+    "matplotlib>=3.11.2",
+    "mlflow>=3.17.2",
+    "numpy>=2.5.4",
+    "opencv-python>=5.0.0.93",
+    "pandas>=3.1.0",
+    "pillow>=13.0.0",
+    "scikit-learn>=1.9.1",
+    "seaborn>=0.13.2",
+    "streamlit>=1.66.1",
+    "tensorflow[and-cuda]>=2.21.0",
+]
 
 [project.scripts]
-vast-jupyter = "vast_jupyter:main"
+neurovisionai-ii-5th-bref = "neurovisionai_ii_5th_bref:main"
 
 [build-system]
 requires = ["uv_build>=0.12.13,<0.13.0"]

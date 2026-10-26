@@ -1,0 +1,28 @@
+# Python
+__pycache__/
+*.py[cod]
+.venv/
+.env
+
+# Dataset - never upload
+data/raw/*
+!data/raw/.gitkeep
+data/processed/*
+!data/processed/.gitkeep
+
+# Trained models
+!models/.gitkeep
+
+
+
+
+# Notebooks
+.ipynb_checkpoints/
+
+# Reports generated during training
+reports/figures/*
+reports/results/*
+
+# OS
+.DS_Store
+Thumbs.db
